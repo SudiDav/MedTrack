@@ -49,7 +49,7 @@ namespace MedTrack
             app.UseSwagger();
             app.UseSwaggerUI(ui =>
             {
-                ui.SwaggerEndpoint("/swagger/v1.0/swagger.json", "Book Store Endpoint API");
+                ui.SwaggerEndpoint("/swagger/v1.0/swagger.json", "MediTrack Endpoint API");
             });
 
             app.UseEndpoints(endpoints =>
